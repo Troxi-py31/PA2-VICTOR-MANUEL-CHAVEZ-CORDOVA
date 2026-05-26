@@ -14,16 +14,16 @@ width: 100%;
 
 }
 .logoecutronic{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
+    top: 20px;
+    left: 20px;
     padding: 20px;
 }
 
 .logoecutronic img{
     width: 100%;
     max-width: 250px;
-    border-radius: 20px;
+    border-radius: 15px;
     display: block;
     height: auto;
 }
@@ -41,8 +41,28 @@ width: 100%;
     text-align: center;
     background-color: rgb(255, 255, 255);
 }
+/* css menu */
+.menu{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
 
-.tecnicofoto {
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.menu a:hover{
+    color: red;
+    transform: scale(1.1);
+}
+/* fin css menu */
+.imagenpanoramicataller {
     margin-top: 20px;
 }
 
