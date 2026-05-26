@@ -11,30 +11,41 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-<div class="Cabezal"></div>
-    <div class="logoecutronic">
-    <img src="./img/LocoEcutronic.jpeg" alt="LogoEcutronicAutos" width="250">
+<!-- Navegacion funcional con id referente -->
+<header class="header">
+        <div class="logoecutronic">
+        <img src="./img/LocoEcutronic.jpeg" alt="LogoEcutronicAutos">
     </div>
-<!-- lista de navegacion -->
-<header>
-        <nav class="menu">
-            <ul>
-                <li><a href="#nosotros">Sobre Nosotros</a></li>
-                <li><a href="#Venta">Venta</a></li>
-                <li><a href="#servicios">Servicios</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-                <li><a href="#sugerencias">Sugerencias</a></li>
-            </ul>
-        </nav>
+    <nav class="menu">
+        <ul>
+            <li><a href="#nosotros">Sobre Nosotros</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#sugerencias">Sugerencias</a></li>
+        </ul>
+    </nav>
 </header>
 <!-- frase -->
  </div>
+ <br>
 <h1 class="titulo">Tu taller de confianza</h1>
 <h2 class="frase">para el mantenimiento y reparación de tu vehículo.</h2>
 <!-- imagen panoramica taller -->
 <div class="imagenpanoramicataller">
     <img src="./img/3200.jpg" alt="tecnicomecanico">
 </div>
+ <section id="nosotros" class="nosotros">
+        <h2>¿Quienes Somos?</h2>
+        <p>Somos Ecutronic Autos, una empresa del rubro automotriz, actualmente estamos en Lima y contamos con 3 locales en diferentes puntos de Lima.<br>
+            Nuestro fuerte es la rama de Fuel Injection, donde tenemos técnicos especialistas para cubrir cualquier consulta sobre su vehículo. <br>
+            Contamos con todos los repuestos alternativos y originales que tu vehículo necesita.<br>
+            De igual forma somos proveedores de repuestos exclusivos para sus vehículos tanto alternativos como originales, ya que somos importadores tanto de China como de Brasil, por lo cual tendrá una garantía 100% asegurada.
+        </p><br>
+        <h2>¿Porque elegirnos?</h2>
+        <h4>¡Servicio de Calidad y satisfacción al cliente! </h4>
+        <p>Ecutronic Autos atendemos todas las marcas y modelos de vehículos. Contamos con técnicos capacitados para atender a sus problemas en el rubro automotriz.<br>
+            Asimismo, ofrecemos repuestos exclusivos para su vehículo.</p>
+    </section>
  <!-- Primera parte de imagen superior -->
 <div id="servicios" class="imagenes">
             <div class="imagen">
@@ -58,12 +69,12 @@
                 <h2 class="subtitulo">Prueba de bobina</h2>
                 <br>
                 <p class="texto">La prueba de bobina es una revisión que se realiza para comprobar si la bobina de encendido está funcionando correctamente y enviando la energía necesaria a las bujías. Esta prueba ayuda a detectar fallas cuando el vehículo presenta pérdida de potencia, jaloneos, dificultad para encender o consumo excesivo de combustible. Durante la revisión se verifica el estado de la bobina, la corriente eléctrica y su rendimiento dentro del sistema de encendido. Es importante porque una bobina en mal estado puede causar fallas en el motor y afectar el desempeño general del vehículo.</p>
-                <br><br>
+                <br><br><br>
                 <button>Ver más</button>
             </div>    
         </div>
 <!-- Segunda parte de imagen inferior --> 
-<div id="servicios" class="imagenes2">
+<div class="imagenes2">
     <div class="imagen"> 
         <img src=".\img\scaner.png" alt="scaner">
         <h2 class="subtitulo">Prueba de scaner</h2><br>
@@ -74,14 +85,14 @@
         <img src=".\img\Prueba_de_Inyectores.jpg" alt="inyectores">
         <h2 class="subtitulo">Limpieza & Prueba de inyectores</h2><br>
         <p class="texto">La limpieza y prueba de inyectores es un servicio que se realiza para eliminar suciedad o residuos acumulados y verificar que los inyectores estén trabajando correctamente. Ayuda a mejorar el rendimiento del motor, reducir el consumo de combustible y evitar fallas como jaloneos, pérdida de potencia o encendido irregular. También permite comprobar que cada inyector esté pulverizando el combustible de forma adecuada.</p><br>
-        <button>Ver más</button>
+        <br><br><br><button>Ver más</button>
     </div>
     <div class="imagen"> 
         <img src="https://thumbs.dreamstime.com/b/cableado-de-automóviles-y-sistema-coches-muchos-cables-para-texto-fondo-139101007.jpg" alt="cableado">
         <h2 class="subtitulo">Cableado</h2><br>
         <p class="texto">La restauración del cableado automotriz consiste en revisar, reparar o reemplazar cables dañados, quemados, sulfatados o mal conectados dentro del sistema eléctrico del vehículo. Este trabajo ayuda a corregir fallas como cortocircuitos, pérdida de corriente, luces inestables, sensores con errores, problemas de encendido o fallas electrónicas generales. También incluye ordenamiento, aislamiento y protección del cableado para asegurar un funcionamiento seguro, estable y confiable de todos los sistemas eléctricos del vehículo.
 </p><br>
-        <button>Ver más</button>
+        <br><button>Ver más</button>
     </div>
 </div>
 
@@ -101,6 +112,14 @@
         <input type="submit" value="Enviar"/> 
     </form>
 </section>
+
+ <section id="contacto" class="contacto">
+        <h2>Contáctanos</h2><br>
+        <p><strong>Dirección:</strong> Las prensas 230 - independencia</p>
+        <p><strong>Teléfono:</strong> (+51) 935-240-931</p>
+        <p><strong>Email:</strong> Victor31chc@gmail.com</p>
+    </section>
+
     <footer>
         <p>&copy; 2026 EcutronicAutos.<br> Todos los derechos reservados.</p>
     </footer>
